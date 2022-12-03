@@ -1,0 +1,17 @@
+{
+    "group":"skeletons",
+    
+    "equipment": {
+        "main_hand": {
+            "override": "true",
+            "chance": 0.8,
+            "items": [
+                {
+                    "id": "minecraft:bow",
+                    "weight": 1,
+                    "drop_chance": 0
+                }
+            ]
+        }
+    }
+}

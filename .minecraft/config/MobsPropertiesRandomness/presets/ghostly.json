@@ -1,0 +1,46 @@
+{
+    "potion_effects": [
+        {
+            "id": "minecraft:invisibility",
+            "amplifier": 0,
+            "hide_particles": true
+        }
+    ],
+
+    "attributes": [
+        {
+            "id": "minecraft:generic.attack_damage",
+            "modifier_name": "Ghostly Mobs Attack Increase",
+            "amount": {
+                "min": 0.2,
+                "max": 0.4,
+                "difficulty_modifier": {
+                    "operation": "multiply",
+                    "easy": 0.9,
+                    "normal": 1,
+                    "hard": 1.2
+                }
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.movement_speed",
+            "modifier_name": "Ghostly Mobs Speed Increase",
+            "amount": {
+                "min": 0.1,
+                "max": 0.2,
+                "difficulty_modifier": {
+                    "operation": "multiply",
+                    "easy": 0.9,
+                    "normal": 1,
+                    "hard": 1.2
+                }
+            },
+            "operation": "multiply_base"
+        }
+    ],
+
+    "custom_name": {
+        "prefixes": ["Ghostly "]
+    }
+}

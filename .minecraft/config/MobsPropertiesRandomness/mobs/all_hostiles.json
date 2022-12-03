@@ -1,0 +1,57 @@
+{
+    "group": "all_hostiles",
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Health Increase For Hostile Mobs",
+            "amount": {
+                "min": 0.3,
+                "max": 0.65,
+                "difficulty_modifier": {
+                    "operation": "multiply",
+                    "easy": 0.9,
+                    "normal": 1,
+                    "hard": 1.2
+                }
+            },
+            "operation": "multiply_base"
+        }
+    ],
+    
+    "presets": {
+        "chance": 0.18,
+        "mode": "after",
+        "list": [
+            {
+                "weight": 1,
+                "name": "ghostly",
+                "world_whitelist": {}
+            },
+            {
+                "weight": 30,
+                "name": "fast",
+                "world_whitelist": {}
+            },
+            {
+                "weight": 30,
+                "name": "buff",
+                "world_whitelist": {}
+            },
+            {
+                "weight": 30,
+                "name": "hurtful",
+                "world_whitelist": {}
+            },
+            {
+                "weight": 15,
+                "name": "shielded",
+                "world_whitelist": {}
+            },
+            {
+                "weight": 15,
+                "name": "stasis",
+                "world_whitelist": {}
+            }
+        ]
+    }
+}

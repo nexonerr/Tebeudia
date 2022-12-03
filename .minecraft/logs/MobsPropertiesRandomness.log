@@ -1,0 +1,222 @@
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 7 Presets 
+[INFO] Reloading Mobs 
+[ERROR] Validation error loading Mob mobs_equipment: Missing or empty list in Presets. Presets{chance: ModifiableValue{value: 1.000000, difficulty_modifier: null, pos_modifier: null, time_existed_modifier: null, conditionModifiers: null, round: null}, list: []} 
+[INFO] Loaded 1 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 7 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 7 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 7 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 7 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 7 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 7 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 7 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 7 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[ERROR] Failed loading Preset warrior_equipment: bloodmseltery:blood_rune material does not exist. 
+[INFO] Loaded 6 Presets 
+[INFO] Reloading Mobs 
+[INFO] Preset warrior_equipment does not exist 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[ERROR] Failed loading Preset warrior_equipment: bloodsmeltery:blood_rune material does not exist. 
+[INFO] Loaded 6 Presets 
+[INFO] Reloading Mobs 
+[INFO] Preset warrior_equipment does not exist 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[ERROR] Failed loading Preset warrior_equipment: bloodsmeltery:bloodrune material does not exist. 
+[INFO] Loaded 6 Presets 
+[INFO] Reloading Mobs 
+[INFO] Preset warrior_equipment does not exist 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[ERROR] Failed loading Preset warrior_equipment: bloodsmeltery:blood-rune material does not exist. 
+[INFO] Loaded 6 Presets 
+[INFO] Reloading Mobs 
+[INFO] Preset warrior_equipment does not exist 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 7 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 7 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 7 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[ERROR] Parsing error loading Preset warrior_equipment: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 80 column 38 path $.equipment.head.items[0].enchantments 
+[INFO] Loaded 6 Presets 
+[INFO] Reloading Mobs 
+[INFO] Preset warrior_equipment does not exist 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[ERROR] Parsing error loading Preset warrior_equipment: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 81 column 26 path $.equipment.head.items[0].enchantments[0] 
+[INFO] Loaded 6 Presets 
+[INFO] Reloading Mobs 
+[INFO] Preset warrior_equipment does not exist 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 7 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 7 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 7 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 8 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[ERROR] Failed loading Preset lumberer_equipment: tconstruct:slimy_vine material does not exist. 
+[INFO] Loaded 7 Presets 
+[INFO] Reloading Mobs 
+[INFO] Preset lumberer_equipment does not exist 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 8 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 9 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 9 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 9 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[ERROR] Failed loading Preset pilgrim_equipment: tconstruct:stone material does not exist. 
+[INFO] Loaded 9 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[ERROR] Failed loading Preset pilgrim_equipment: tconstruct:stone material does not exist. 
+[INFO] Loaded 9 Presets 
+[INFO] Reloading Mobs 
+[INFO] Preset pilgrim_equipment does not exist 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 10 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 10 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 2 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 2 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 10 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 3 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 3 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 10 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 3 Mobs 
+[INFO] Reloading Groups 
+[INFO] Loaded 3 Groups 
+[INFO] Reloading Presets 
+[INFO] Loaded 10 Presets 
+[INFO] Reloading Mobs 
+[INFO] Loaded 3 Mobs 

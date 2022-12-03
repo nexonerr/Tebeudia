@@ -1,0 +1,68 @@
+{
+    "attributes": [
+        {
+            "id": "minecraft:generic.movement_speed",
+            "modifier_name": "Buff Mobs Speed Decrease",
+            "amount": {
+                "min": -0.1,
+                "max": -0.2,
+                "difficulty_modifier": {
+                    "operation": "multiply",
+                    "easy": 1.2,
+                    "normal": 1,
+                    "hard": 0.9
+                }
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Buff Mobs Health Increase",
+            "amount": {
+                "min": 0.3,
+                "max": 0.75,
+                "difficulty_modifier": {
+                    "operation": "multiply",
+                    "easy": 0.9,
+                    "normal": 1,
+                    "hard": 1.2
+                }
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.armor",
+            "modifier_name": "Buff Mobs Armor Increase",
+            "amount": {
+                "min": 1,
+                "max": 3,
+                "difficulty_modifier": {
+                    "operation": "multiply",
+                    "easy": 0.9,
+                    "normal": 1,
+                    "hard": 1.2
+                }
+            },
+            "operation": "addition"
+        },
+        {
+            "id": "minecraft:generic.armor_toughness",
+            "modifier_name": "Buff Mobs Armor Toughness Increase",
+            "amount": {
+                "min": 0.5,
+                "max": 1.5,
+                "difficulty_modifier": {
+                    "operation": "multiply",
+                    "easy": 0.9,
+                    "normal": 1,
+                    "hard": 1.2
+                }
+            },
+            "operation": "addition"
+        }
+    ],
+
+    "custom_name": {
+        "prefixes": ["Buff ", "Healthy ", "Hardened "]
+    }
+}

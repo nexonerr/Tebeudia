@@ -1,0 +1,120 @@
+{
+    "equipment": {
+        "main_hand": {
+            "override": "true",
+            "chance": 1,
+            "items": [
+                {
+                    "id": "tconstruct:sword",
+                    "weight": 2,
+                    "drop_chance": 0,
+                    "ticon_materials": {
+                        "materials": [
+                            "tconstruct:steel",
+                            "tconstruct:pig_iron",
+                            "bloodsmeltery:bloodbrass"
+                        ]
+                    }
+                },
+                {
+                    "id": "tconstruct:sword",
+                    "weight": 2,
+                    "drop_chance": 0,
+                    "ticon_materials": {
+                        "materials": [
+                            "tconstruct:necrotic_bone",
+                            "tconstruct:manyullyn",
+                            "tconstruct:bone"
+                        ]
+                    }
+                },
+                {
+                    "id": "tinker_rapier:rapier_tic",
+                    "weight": 2,
+                    "drop_chance": 0,
+                    "ticon_materials": {
+                        "materials": [
+                            "tconstruct:lead",
+                            "tconstruct:pig_iron",
+                            "tconstruct:bone",
+                            "bloodsmeltery:bloodbrass"
+                        ]
+                    }
+                },
+                {
+                    "id": "tinker_rapier:rapier_tic",
+                    "weight": 2,
+                    "drop_chance": 0,
+                    "ticon_materials": {
+                        "materials": [
+                            "tconstruct:cobalt",
+                            "tconstruct:necrotic_bone",
+                            "tconstruct:silver",
+                            "tconstruct:wood"
+                        ]
+                    }
+                },
+                {
+                    "id": "tconstruct:cleaver",
+                    "weight": 1,
+                    "drop_chance": 0,
+                    "ticon_materials": {
+                        "materials": [
+                            "tconstruct:necronium",
+                            "tconstruct:hepatizon",
+                            "tconstruct:hepatizon",
+                            "tconstruct:rose_gold"
+                        ]
+                    }
+                }
+            ]
+        },
+        "head": {
+            "override": "true",
+            "chance": 0.4,
+            "items": [
+                {
+                    "id":  "botania:manasteel_helmet",
+                    "weight": 1,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                },
+                {
+                    "id":  "bloodmagic:livinghelmet",
+                    "weight": 1,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                }
+            ]
+        },
+        "chest": {
+            "override": "true",
+            "chance": 0.4,
+            "items": [
+                {
+                    "id":  "minecraft:iron_chestplate",
+                    "weight": 1,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                },
+                {
+                    "id":  "minecraft:diamond_chestplate",
+                    "weight": 1,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                }
+            ]
+        }
+    },
+    "custom_name": {
+        "suffixes": [" The Fighter", " The Warrior"]
+    }
+}

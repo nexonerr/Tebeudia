@@ -1,0 +1,30 @@
+{
+    "group": "tier1_mobs",
+    
+    "presets": {
+        "chance": 0.8,
+        "mode": "before",
+        "list": [
+            {
+                "weight": 1,
+                "name": "warrior_equipment",
+                "world_whitelist": {}
+            },
+            {
+                "weight": 1,
+                "name": "lumberer_equipment",
+                "world_whitelist": {}
+            },
+            {
+                "weight": 1,
+                "name": "protector_equipment",
+                "world_whitelist": {}
+            },
+            {
+                "weight": 1,
+                "name": "pilgrim_equipment",
+                "world_whitelist": {}
+            }
+        ]
+    }
+}

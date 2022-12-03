@@ -1,0 +1,51 @@
+{
+    "equipment": {
+        "main_hand": {
+            "override": "true",
+            "chance": 1,
+            "items": [
+                {
+                    "id": "minecraft:stone_sword",
+                    "weight": 2,
+                    "drop_chance": 0
+                },
+                {
+                    "id": "tconstruct:dagger",
+                    "weight": 2,
+                    "drop_chance": 0,
+                    "ticon_materials": {
+                        "materials": [
+                            "tconstruct:seared_stone",
+                            "tconstruct:wood"
+                        ]
+                    }
+                }
+            ]
+        },
+        "chest": {
+            "override": "true",
+            "chance": 0.6,
+            "items": [
+                {
+                    "id":  "minecraft:leather_chestplate",
+                    "weight": 1,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                },
+                {
+                    "id":  "minecraft:chainmail_chestplate",
+                    "weight": 1,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                }
+            ]
+        }
+    },
+    "custom_name": {
+        "suffixes": [" The Poor", " The Pilgrim"]
+    }
+}

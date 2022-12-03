@@ -1,0 +1,14 @@
+{
+    "mobs": [
+        "minecraft:zombie",
+        "minecraft:skeleton",
+        "minecraft:stray",
+        "minecraft:husk",
+        "minecraft:pillager",
+        "minecraft:vindicator",
+        "minecraft:drowned",
+        "minecraft:piglin",
+        "minecraft:piglin_brute",
+        "minecraft:wither_skeleton"
+    ]
+}

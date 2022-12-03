@@ -1,0 +1,7 @@
+{
+    "mobs": [
+        "minecraft:skeleton",
+        "occultism:wild_hunt_skeleton",
+        "occultism:possessed_skeleton"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "on_hit_effects": {
+        "on_attack": [{
+            "target": "other",
+            "health_left": 0.9,
+            "potion_effects": [
+                {
+                    "id": "minecraft:slowness",
+                    "amplifier": 100,
+                    "duration": 2,
+                    "hide_particles": true
+                },
+                {
+                    "id": "bloodmagic:suspended",
+                    "amplifier": 15,
+                    "duration": 2,
+                    "hide_particles": true
+                },
+                {
+                    "id": "bloodmagic:gravity",
+                    "amplifier": 15,
+                    "duration": 7,
+                    "hide_particles": true
+                }
+            ]
+        }]
+    },
+
+    "custom_name": {
+        "prefixes": ["Stopping ", "Freezing "]
+    }
+}

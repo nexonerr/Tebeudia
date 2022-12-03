@@ -11,6 +11,7 @@
 #642081 minecraft:brown_terracotta
 #BA9FBF minecraft:bubble_coral_block
 #C6AC20 minecraft:cactus
+#00BE18 minecraft:calcite
 #F522F4 minecraft:chest
 #1191BC minecraft:chiseled_red_sandstone
 #C3DAEA minecraft:chiseled_sandstone
@@ -40,6 +41,7 @@
 #83CED3 minecraft:lava
 #CBF1B4 minecraft:light_blue_terracotta
 #EC280B minecraft:light_gray_terracotta
+#618FD5 integrateddynamics:menril_leaves
 #2F738D minecraft:mossy_stone_brick_slab
 #454322 minecraft:netherrack
 #AD9EB5 minecraft:oak_leaves
@@ -71,6 +73,7 @@
 #5CF3F1 minecraft:sugar_cane
 #7CC7E5 thermal:sulfur_ore
 #9209D8 minecraft:terracotta
+#689A91 tconstruct:tinker_station
 #DD6C7E tconstruct:tinkers_anvil
 #2035B7 minecraft:tube_coral_block
 #87BAF4 minecraft:tuff

@@ -1,11 +1,10 @@
-[03:42:13] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[03:42:13] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[03:42:13] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
-[03:42:13] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[03:42:13] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[03:42:13] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[03:42:13] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[03:42:13] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.8.5, built with forge 1.18.2-40.1.0
+[18:55:57] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[18:55:57] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[18:55:57] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
+[18:55:57] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[18:55:57] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[18:55:57] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[18:55:57] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.8.5, built with forge 1.18.2-40.1.0
 forge: 40.1.85
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -22,21 +21,31 @@ MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.
 FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.8.5, zoomLevel=0, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=true, dragScale=1, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.8.5, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.8.5, port=8080, enabled=false}
-CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.8.5, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[03:42:13] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
-[03:42:13] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
-[03:42:13] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
-[03:42:13] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
-[03:42:13] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
-[03:42:13] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
-[03:42:13] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
-[03:42:13] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
-[03:42:13] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
-[03:42:13] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
-[03:42:13] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 337.76ms
-[03:42:32] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[03:42:32] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[03:42:32] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[03:42:32] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\Mete\Documents\extra%20things%20that%20aren't%20e\MultiMC\instances\Tebeudia\.minecraft\mods\journeymap-1.18.2-5.8.5-forge.jar\assets\journeymap\theme\flat
-[03:42:32] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
-[03:42:32] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 24.43ms
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.8.5, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.8.5, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
+[18:55:57] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[18:55:57] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[18:55:57] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[18:55:57] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[18:55:57] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[18:55:57] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[18:55:57] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[18:55:57] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[18:55:57] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[18:55:57] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[18:55:57] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 363.65ms
+[18:56:16] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[18:56:16] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[18:56:16] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[18:56:16] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\Mete\Documents\extra%20things%20that%20aren't%20e\MultiMC\instances\Tebeudia\.minecraft\mods\journeymap-1.18.2-5.8.5-forge.jar\assets\journeymap\theme\flat
+[18:56:16] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
+[18:56:16] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 21.77ms
+[18:57:16] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[18:57:29] [Render thread/INFO] [ChatLog] 
+[18:57:29] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[18:57:29] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Mete\Documents\extra things that aren't e\MultiMC\instances\Tebeudia\.minecraft\journeymap\data\sp\wow\waypoints
+[18:57:29] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Mete\Documents\extra things that aren't e\MultiMC\instances\Tebeudia\.minecraft\journeymap\data\sp\wow\overworld. Memory: 3020MB total, 797MB free 
+[19:09:36] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[19:09:36] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[20:49:47] [Render thread/INFO] [StatTimer] MiniMap1.Circle hit max count, 1000000
+[20:55:07] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Mete\Documents\extra things that aren't e\MultiMC\instances\Tebeudia\.minecraft\journeymap\data\mp\offline\minecraft:overworld
+[20:55:07] [JM-task-4/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@1c2f96ef

@@ -1,0 +1,23 @@
+{
+    "attributes": [
+        {
+            "id": "minecraft:generic.attack_damage",
+            "modifier_name": "Hurtful Mobs Attack Damage Increase",
+            "amount": {
+                "min": 0.3,
+                "max": 0.7,
+                "difficulty_modifier": {
+                    "operation": "multiply",
+                    "easy": 0.9,
+                    "normal": 1,
+                    "hard": 1.2
+                }
+            },
+            "operation": "multiply_base"
+        }
+    ],
+
+    "custom_name": {
+        "prefixes": ["Hurtful ", "Strong ", "Fierce "]
+    }
+}

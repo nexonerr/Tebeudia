@@ -1,0 +1,118 @@
+{
+    "equipment": {
+        "main_hand": {
+            "override": "true",
+            "chance": 1,
+            "items": [
+                {
+                    "id": "tconstruct:hand_axe",
+                    "weight": 2,
+                    "drop_chance": 0,
+                    "ticon_materials": {
+                        "materials": [
+                            "tconstruct:nahuatl",
+                            "tconstruct:necrotic_bone",
+                            "tconstruct:leather"
+                        ]
+                    }
+                },
+                {
+                    "id": "tconstruct:hand_axe",
+                    "weight": 2,
+                    "drop_chance": 0,
+                    "ticon_materials": {
+                        "materials": [
+                            "tconstruct:manyullyn",
+                            "tconstruct:blazing_bone",
+                            "tconstruct:necronium"
+                        ]
+                    }
+                },
+                {
+                    "id": "tconstruct:mattock",
+                    "weight": 2,
+                    "drop_chance": 0,
+                    "ticon_materials": {
+                        "materials": [
+                            "tconstruct:slimesteel",
+                            "tconstruct:copper",
+                            "tconstruct:manyullyn"
+                        ]
+                    }
+                },
+                {
+                    "id": "tconstruct:mattock",
+                    "weight": 2,
+                    "drop_chance": 0,
+                    "ticon_materials": {
+                        "materials": [
+                            "tconstruct:osmium",
+                            "tconstruct:whitestone",
+                            "tconstruct:blazing_bone"
+                        ]
+                    }
+                },
+                {
+                    "id": "tconstruct:broad_axe",
+                    "weight": 1,
+                    "drop_chance": 0,
+                    "ticon_materials": {
+                        "materials": [
+                            "tconstruct:necronium",
+                            "tconstruct:manyullyn",
+                            "tconstruct:necrotic_bone",
+                            "tconstruct:slimesteel"
+                        ]
+                    }
+                }
+            ]
+        },
+        "chest": {
+            "override": "true",
+            "chance": 0.4,
+            "items": [
+                {
+                    "id":  "minecraft:iron_chestplate",
+                    "weight": 1,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                },
+                {
+                    "id":  "minecraft:chainmail_chestplate",
+                    "weight": 1,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                }
+            ]
+        },
+        "legs": {
+            "override": "true",
+            "chance": 0.4,
+            "items": [
+                {
+                    "id":  "ars_nouveau:archmage_leggings",
+                    "weight": 1,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                },
+                {
+                    "id":  "bloodmagic:livingleggings",
+                    "weight": 1,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                }
+            ]
+        }
+    },
+    "custom_name": {
+        "suffixes": [" The Lumberer", " The Axe Man"]
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "equipment": {
+        "main_hand": {
+            "override": "true",
+            "chance": 1,
+            "items": [
+                {
+                    "id": "ars_nouveau:enchanters_shield",
+                    "weight": 2,
+                    "drop_chance": 0
+                },
+                {
+                    "id": "minecraft:shield",
+                    "weight": 2,
+                    "drop_chance": 0
+                }
+            ]
+        },
+        "off_hand": {
+            "override": "true",
+            "chance": 1,
+            "items": [
+                {
+                    "id": "ars_nouveau:enchanters_shield",
+                    "weight": 2,
+                    "drop_chance": 0
+                },
+                {
+                    "id": "minecraft:shield",
+                    "weight": 2,
+                    "drop_chance": 0
+                }
+            ]
+        },
+        "chest": {
+            "override": "true",
+            "chance": 0.7,
+            "items": [
+                {
+                    "id":  "minecraft:netherite_chestplate",
+                    "weight": 1,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                },
+                {
+                    "id":  "minecraft:diamond_chestplate",
+                    "weight": 5,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                },
+                {
+                    "id":  "minecraft:iron_chestplate",
+                    "weight": 3,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                }
+            ]
+        },
+        "legs": {
+            "override": "true",
+            "chance": 0.7,
+            "items": [
+                {
+                    "id":  "ars_nouveau:archmage_leggings",
+                    "weight": 1,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                },
+                {
+                    "id":  "botania:elementium_leggings",
+                    "weight": 1,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                }
+            ]
+        },
+        "feets": {
+            "override": "true",
+            "chance": 0.9,
+            "items": [
+                {
+                    "id":  "botania:terrasteel_boots",
+                    "weight": 1,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                },
+                {
+                    "id":  "minecraft:diamond_boots",
+                    "weight": 2,
+                    "drop_chance": 0,
+                    "enchantments": [
+                        {"random":{}}
+                    ]
+                }
+            ]
+        }
+    },
+    "custom_name": {
+        "suffixes": [" The Protector", " The Very Much Not Killable"]
+    }
+}

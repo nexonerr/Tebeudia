@@ -1,0 +1,26 @@
+{
+    "on_hit_effects": {
+        "on_attacked": [{
+            "target": "entity",
+            "health_left": 0.5,
+            "potion_effects": [
+                {
+                    "id": "minecraft:strength",
+                    "amplifier": 0,
+                    "duration": 3,
+                    "hide_particles": true
+                },
+                {
+                    "id": "minecraft:resistance",
+                    "amplifier": 15,
+                    "duration": 3,
+                    "hide_particles": true
+                }
+            ]
+        }]
+    },
+
+    "custom_name": {
+        "prefixes": ["Shielded ", "Protected "]
+    }
+}

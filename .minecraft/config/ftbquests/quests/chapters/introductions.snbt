@@ -69,5 +69,120 @@
 				title: "Ore generation"
 			}]
 		}
+		{
+			icon: "tconstruct:blaze_head"
+			x: 1.5d
+			y: -2.5d
+			subtitle: "Why do they hurt so much?"
+			description: [
+				"In Tebeudia, most mobs are stronger, and more geared up than their vanilla counterparts."
+				"While most mobs have more health, and deal more damage, some will also be infernal. This means that they will have special properties and will therefore be tougher. You'll realize what they are when they see them, trust me."
+				"Therefore, I recommend you set up shelter and find a bed ASAP. The first few nights will be tough, but you'll become stronger as time goes on, and eventually, the fear will go away. You'll never not be scared of the eyes in the dark, though"
+				"Not all is bad, however. Infernal mobs will drop minerals and food that will come in really useful, as eating a variety of foods will increase your health, and you'll need said minerals to craft stronger gear. Some will even drop gear."
+			]
+			dependencies: ["6489A90B557D27CC"]
+			id: "5484B4E21B19EE11"
+			tasks: [{
+				id: "25FDFEEBE0003E8D"
+				type: "checkmark"
+				title: "Angrier Mobs"
+			}]
+			rewards: [{
+				id: "4393AFFAE238D1BA"
+				type: "item"
+				item: {
+					id: "tconstruct:dagger"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.75f
+							"tconstruct:attack_damage": 0.65f
+							"tconstruct:durability": 0.75f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 2.0f
+							"tconstruct:mining_speed": 4.875f
+							"tconstruct:attack_damage": 3.4125f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:durability": 168.75f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:cultivated"
+								level: 1s
+							}
+							{
+								name: "tconstruct:padded"
+								level: 1s
+							}
+							{
+								name: "tconstruct:searing"
+								level: 1s
+							}
+							{
+								name: "tconstruct:sharpness"
+								level: 1s
+							}
+							{
+								name: "tconstruct:offhand_attack"
+								level: 1s
+							}
+							{
+								name: "tconstruct:silky_shears"
+								level: 1s
+							}
+						]
+						display: {
+							Name: "{\"text\":\"Simple Dagger\"}"
+						}
+						tic_upgrades: [{
+							name: "tconstruct:sharpness"
+							level: 1s
+						}]
+						Count: 1b
+						Damage: 0
+						tic_materials: [
+							"tconstruct:seared_stone"
+							"tconstruct:wood"
+						]
+						tic_volatile_data: {
+							"tconstruct:tank_capacity": 250
+							"tconstruct:duel_wielding": 1b
+						}
+						tic_persistent_data: {
+							abilities: 1
+							"tconstruct:sharpness": 36
+							upgrades: 2
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:carrot"
+			x: 0.5d
+			y: -3.5d
+			subtitle: "Mmmm tasty food"
+			description: [
+				"You may have realized that you only have 8 hearts, as opposed to the usual 10, this is because Spice of Life: Carrot Edition is installed. As you eat a variety of food, you will obtain more hearts, this can be tracked with the food book."
+				"By pressing shift over a food, you may see the saturation a food grants"
+			]
+			dependencies: [
+				"609DEE79F9C0BD92"
+				"5484B4E21B19EE11"
+			]
+			id: "573EF1A684D70513"
+			tasks: [{
+				id: "35B5C3F92B04A093"
+				type: "checkmark"
+				title: "Food"
+			}]
+			rewards: [{
+				id: "2C316C02F42DF71C"
+				type: "item"
+				item: "solcarrot:food_book"
+			}]
+		}
 	]
 }
