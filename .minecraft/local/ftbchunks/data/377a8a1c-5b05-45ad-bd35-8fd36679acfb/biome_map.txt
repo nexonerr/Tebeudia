@@ -1,0 +1,9 @@
+#556 minecraft:beach
+#4DB terralith:cave/fungal_caves
+#34D minecraft:deep_lukewarm_ocean
+#1EA terralith:fractured_savanna
+#79A minecraft:lukewarm_ocean
+#5FF minecraft:river
+#039 terralith:savanna_badlands
+#4D3 minecraft:swamp
+#19B terralith:white_mesa

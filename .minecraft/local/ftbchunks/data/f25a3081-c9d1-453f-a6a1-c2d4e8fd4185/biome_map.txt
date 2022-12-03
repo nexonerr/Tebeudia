@@ -1,0 +1,12 @@
+#556 minecraft:beach
+#694 terralith:cave/deep_caves
+#4DB terralith:cave/fungal_caves
+#1EA terralith:fractured_savanna
+#4F1 minecraft:ocean
+#3A3 terralith:orchid_swamp
+#5FF minecraft:river
+#254 terralith:shrubland
+#720 terralith:steppe
+#579 minecraft:windswept_savanna
+#27C terralith:yosemite_cliffs
+#67D terralith:yosemite_lowlands

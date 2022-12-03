@@ -1,0 +1,2 @@
+[03:42:03] [INFO ] Loaded script startup_scripts:custom_ores.js in 0.086 s
+[03:42:03] [INFO ] Loaded 1/1 KubeJS startup scripts in 1.244 s

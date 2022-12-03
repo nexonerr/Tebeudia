@@ -1,0 +1,10 @@
+#6F6 minecraft:badlands
+#184 terralith:brushland
+#63B terralith:cave/thermal_caves
+#008 minecraft:desert
+#4B0 minecraft:jungle
+#5FC terralith:red_oasis
+#5FF minecraft:river
+#3AF minecraft:sparse_jungle
+#531 terralith:warm_river
+#1C9 minecraft:wooded_badlands

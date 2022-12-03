@@ -1,0 +1,11 @@
+#79D terralith:cave/andesite_caves
+#694 terralith:cave/deep_caves
+#00C terralith:cave/infested_caves
+#63B terralith:cave/thermal_caves
+#292 minecraft:frozen_ocean
+#3A0 minecraft:frozen_river
+#6DE terralith:ice_marsh
+#72D minecraft:snowy_beach
+#4E5 minecraft:snowy_plains
+#340 minecraft:snowy_taiga
+#1D0 terralith:yellowstone

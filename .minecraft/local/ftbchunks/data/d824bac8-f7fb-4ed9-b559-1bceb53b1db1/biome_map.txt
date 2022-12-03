@@ -1,0 +1,9 @@
+#618 minecraft:basalt_deltas
+#570 minecraft:crimson_forest
+#705 minecraft:deep_frozen_ocean
+#292 minecraft:frozen_ocean
+#653 minecraft:nether_wastes
+#72D minecraft:snowy_beach
+#4E5 minecraft:snowy_plains
+#721 minecraft:soul_sand_valley
+#628 minecraft:warped_forest

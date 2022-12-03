@@ -1,0 +1,73 @@
+{
+	id: "5D143F3D86B27A5D"
+	group: ""
+	order_index: 0
+	filename: "introductions"
+	title: "Introductions"
+	icon: "botania:dry_grass"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "ae2:controller"
+			x: 0.5d
+			y: 0.0d
+			subtitle: "START"
+			description: [
+				"Tebeudia is an expert modpack, aiming to provide the player challenges using completely custom content and new gameplay mechanics"
+				"In Tebeudia, you will cast spells, create automated systems to fuel said magic, build grand structures, and battle VERY fierce mobs"
+			]
+			id: "75F3335069EE1FFE"
+			tasks: [{
+				id: "51FA4974B8986207"
+				type: "checkmark"
+				title: "Tebeudia"
+			}]
+			rewards: [{
+				id: "0A9010460373567F"
+				type: "item"
+				item: "pamhc2foodcore:applejuiceitem"
+				count: 8
+			}]
+		}
+		{
+			icon: "quark:gold_bars"
+			x: 0.5d
+			y: -1.5d
+			subtitle: "That's what they tell me every time"
+			description: ["While yes, the whole idea of an expert pack with all the previous things isn't completely original, you can be assured that the way you'll do those things will be vastly different in Tebeudia"]
+			dependencies: ["75F3335069EE1FFE"]
+			dependency_requirement: "all_started"
+			id: "6489A90B557D27CC"
+			tasks: [{
+				id: "074D5712375E1EA7"
+				type: "checkmark"
+				title: "But..."
+			}]
+			rewards: [{
+				id: "13E61B38C4D619C6"
+				type: "item"
+				item: "pamhc2foodcore:basichamburgeritem"
+				count: 4
+			}]
+		}
+		{
+			icon: "minecraft:iron_ore"
+			x: -0.5d
+			y: -2.5d
+			subtitle: "Mmmmm minerals"
+			description: [
+				"Ore generation in Tebeudia is very different from how vanilla ore generation works"
+				"Instead of small vast veins of ore, ore is found in rarer, bigger pockets, much like GT ore veins"
+				"Every vein has some type of indicator and spawn height, these can be found in the \"Ore Veins\" chapter "
+			]
+			dependencies: ["6489A90B557D27CC"]
+			id: "609DEE79F9C0BD92"
+			tasks: [{
+				id: "6AECD83F709C7E0C"
+				type: "checkmark"
+				title: "Ore generation"
+			}]
+		}
+	]
+}

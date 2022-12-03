@@ -1,0 +1,8 @@
+#694 terralith:cave/deep_caves
+#00C terralith:cave/infested_caves
+#6B9 terralith:cold_shrubland
+#292 minecraft:frozen_ocean
+#3A0 minecraft:frozen_river
+#72D minecraft:snowy_beach
+#4E5 minecraft:snowy_plains
+#340 minecraft:snowy_taiga

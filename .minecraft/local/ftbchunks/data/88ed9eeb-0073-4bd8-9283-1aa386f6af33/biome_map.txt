@@ -1,0 +1,13 @@
+#556 minecraft:beach
+#49D terralith:caldera
+#63B terralith:cave/thermal_caves
+#3D6 minecraft:cold_ocean
+#010 minecraft:forest
+#78A terralith:gravel_beach
+#2D6 minecraft:meadow
+#5FF minecraft:river
+#41A terralith:rocky_mountains
+#4C8 terralith:shield
+#5D1 terralith:snowy_shield
+#169 minecraft:taiga
+#1D0 terralith:yellowstone

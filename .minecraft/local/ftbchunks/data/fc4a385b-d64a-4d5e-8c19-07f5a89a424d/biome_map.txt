@@ -1,0 +1,8 @@
+#5C1 terralith:alpine_highlands
+#4CA minecraft:dripstone_caves
+#5E2 terralith:forested_highlands
+#3A0 minecraft:frozen_river
+#6DE terralith:ice_marsh
+#498 minecraft:lush_caves
+#340 minecraft:snowy_taiga
+#4D3 minecraft:swamp

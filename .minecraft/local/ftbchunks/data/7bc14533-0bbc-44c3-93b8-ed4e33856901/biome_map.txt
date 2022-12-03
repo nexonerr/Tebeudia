@@ -1,0 +1,15 @@
+#556 minecraft:beach
+#79D terralith:cave/andesite_caves
+#694 terralith:cave/deep_caves
+#00C terralith:cave/infested_caves
+#6B9 terralith:cold_shrubland
+#010 minecraft:forest
+#5E2 terralith:forested_highlands
+#3A0 minecraft:frozen_river
+#1AC terralith:gravel_desert
+#2D6 minecraft:meadow
+#3DC minecraft:plains
+#5FF minecraft:river
+#4C8 terralith:shield
+#4E5 minecraft:snowy_plains
+#1D0 terralith:yellowstone

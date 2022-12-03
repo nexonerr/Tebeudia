@@ -1,0 +1,15 @@
+#5C1 terralith:alpine_highlands
+#618 minecraft:basalt_deltas
+#556 minecraft:beach
+#79D terralith:cave/andesite_caves
+#570 minecraft:crimson_forest
+#010 minecraft:forest
+#0E5 terralith:highlands
+#653 minecraft:nether_wastes
+#4F1 minecraft:ocean
+#73A minecraft:old_growth_pine_taiga
+#60C minecraft:old_growth_spruce_taiga
+#5FF minecraft:river
+#721 minecraft:soul_sand_valley
+#628 minecraft:warped_forest
+#1D0 terralith:yellowstone

@@ -1,0 +1,22 @@
+[03:19:26] [INFO ] Loaded script server_scripts:loot_tables.js in 0.001 s
+[03:19:26] [INFO ] Loaded script server_scripts:thermal_recipes.js in 0.001 s
+[03:19:26] [INFO ] Loaded script server_scripts:vanilla_recipes.js in 0.0 s
+[03:19:26] [INFO ] Loaded 3/3 KubeJS server scripts in 0.008 s
+[03:19:26] [INFO ] Scripts loaded
+[03:19:26] [WARN ] Failed to register handler for recipe type ars_nouveau:glyph_recipe as it doesn't exist!
+[03:19:26] [INFO ] Scanning recipes...
+[03:19:33] [INFO ] [blocks] Found 646 tags, added 4 objects, removed 0 objects
+[03:19:33] [INFO ] [blocks] Found 646 tags, added 8 objects, removed 0 objects
+[03:19:37] [WARN ] Failed to parse recipe 'bloodsmeltery:smeltery/casting/guide_book[tconstruct:casting_table]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Expected item to be an item, was unknown string 'bloodsmeltery:guide_book'
+[03:19:37] [WARN ] Failed to parse recipe bloodsmeltery:smeltery/casting/guide_book[tconstruct:casting_table]: com.google.gson.JsonSyntaxException: Expected item to be an item, was unknown string 'bloodsmeltery:guide_book'
+[03:19:37] [WARN ] Failed to parse recipe 'bloodmagic:meteor/immersive_engineering[bloodmagic:meteor]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:wirecoil_copper'
+[03:19:37] [WARN ] Failed to parse recipe bloodmagic:meteor/immersive_engineering[bloodmagic:meteor]: com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:wirecoil_copper'
+[03:19:38] [WARN ] Failed to parse recipe 'bloodmagic:meteor/myst_ag[bloodmagic:meteor]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mysticalagriculture:prosperity_shard'
+[03:19:38] [WARN ] Failed to parse recipe bloodmagic:meteor/myst_ag[bloodmagic:meteor]: com.google.gson.JsonSyntaxException: Unknown item 'mysticalagriculture:prosperity_shard'
+[03:19:38] [INFO ] Found 12667 recipes and 0 failed recipes in 207.8 ms
+[03:19:38] [INFO ] Posted recipe events in 5.249 ms
+[03:19:38] [WARN ] Error parsing recipe create_mechanical_extruder:extruding/cobblestone[create_mechanical_extruder:extruding]: {"type":"create_mechanical_extruder:extruding","ingredients":[{"fluid":"minecraft:water","amount":1000},{"fluid":"minecraft:lava","amount":1000}],"result":{"item":"minecraft:cobblestone"}}: java.lang.NullPointerException: Cannot invoke "net.minecraft.world.item.ItemStack.m_41619_()" because "this.catalyst" is null
+[03:19:38] [WARN ] Error parsing recipe create_mechanical_extruder:extruding/stone[create_mechanical_extruder:extruding]: {"type":"create_mechanical_extruder:extruding","ingredients":[{"fluid":"minecraft:water","amount":1000},{"fluid":"minecraft:lava","amount":1000}],"result":{"item":"minecraft:stone"}}: java.lang.NullPointerException: Cannot invoke "net.minecraft.world.item.ItemStack.m_41619_()" because "this.catalyst" is null
+[03:19:38] [INFO ] Modified & removed recipes in 97.82 ms
+[03:19:38] [INFO ] Added recipes in 313.2 μs
+[03:19:38] [INFO ] Added 3 recipes, removed 3 recipes, modified 0 recipes, with 2 failed recipes and 0 fall-backed recipes

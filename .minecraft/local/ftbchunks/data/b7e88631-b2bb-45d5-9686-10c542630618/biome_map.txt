@@ -1,0 +1,13 @@
+#187 terralith:ancient_sands
+#572 terralith:arid_highlands
+#618 minecraft:basalt_deltas
+#694 terralith:cave/deep_caves
+#4DB terralith:cave/fungal_caves
+#570 minecraft:crimson_forest
+#4CA minecraft:dripstone_caves
+#653 minecraft:nether_wastes
+#45C terralith:sandstone_valley
+#721 minecraft:soul_sand_valley
+#531 terralith:warm_river
+#628 minecraft:warped_forest
+#19B terralith:white_mesa

@@ -1,0 +1,11 @@
+#572 terralith:arid_highlands
+#5E9 terralith:blooming_plateau
+#1FE terralith:blooming_valley
+#79D terralith:cave/andesite_caves
+#4CA minecraft:dripstone_caves
+#0E5 terralith:highlands
+#236 terralith:lavender_valley
+#5FF minecraft:river
+#039 terralith:savanna_badlands
+#19B terralith:white_mesa
+#27C terralith:yosemite_cliffs

@@ -1,0 +1,635 @@
+{
+	id: "7E03A6F549096B7A"
+	group: ""
+	order_index: 1
+	filename: "ore_veins"
+	title: "Ore Veins"
+	icon: "minecraft:iron_ore"
+	subtitle: ["All the ores available!"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: true
+	quests: [
+		{
+			title: "Iron-Tin"
+			x: 12.0d
+			y: -4.0d
+			subtitle: "For all of your irony needs"
+			description: [
+				"Distribution: Iron | 30, Tin | 10, Cobblestone | 10, Lead | 1"
+				"Indicator: (Flowering) Azalea Hedges"
+				"Found in altitude: -35 | 40"
+				"Common ore vein (Every 24 chunks) "
+				"Size: 115-165"
+			]
+			dependencies: [
+				"609DEE79F9C0BD92"
+				"42D7F41EDFF4B961"
+			]
+			id: "201237EF6788887C"
+			tasks: [
+				{
+					id: "5494DE598BECBF5C"
+					type: "questsadditions:break"
+					title: "Iron"
+					icon: "minecraft:iron_ore"
+					block_type: 0
+					block: "minecraft:iron_ore"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "3F38D6D95D3FE157"
+					type: "questsadditions:break"
+					title: "Tin"
+					block_type: 0
+					block: "mekanism:tin_ore"
+					value: 1L
+					checkItem: false
+				}
+			]
+		}
+		{
+			title: "Coal"
+			x: 8.0d
+			y: -4.0d
+			subtitle: "Carbonated Stone"
+			description: [
+				"Distribution: Coal | 80, Diamond | 3, Cobblestone | 10"
+				"Indicator: Glimmering Black Flowers, Dandelions"
+				"Found in altitude: -10 | 60"
+				"Common ore vein (Every 24 chunks)"
+				"Size: 135-185"
+			]
+			dependencies: [
+				"609DEE79F9C0BD92"
+				"42D7F41EDFF4B961"
+			]
+			id: "7B160B4BAB1D1DCC"
+			tasks: [{
+				id: "7633412F80FB5462"
+				type: "questsadditions:break"
+				title: "Coal"
+				icon: "minecraft:coal_ore"
+				block_type: 0
+				block: "minecraft:coal_ore"
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.0d
+			subtitle: "PLEASE READ THIS"
+			description: [
+				"First of, \"ore rarity\" as in \"every chunks\" represents how likely 2 veins are to spawn in that many chunks, as deepslate veins and stone veins are not actually unified"
+				"The best way to search for ores, especially early game is to use the indicators for the ore veins, as they are much easier to spot than the ores themselves, looking for ores shouldn't be difficult or tedious, so please use the indicators, also, all quests in this chapter are break block quests, so you have to actually break the specified ores"
+				"On the right are composite ore veins, and on the left are ore veins with one dominant ore"
+				"Lastly, JustEnoughResources doesn't work very well with the large ore deposits, so I recommend using this page instead"
+			]
+			dependencies: ["609DEE79F9C0BD92"]
+			id: "42D7F41EDFF4B961"
+			tasks: [{
+				id: "0F3596A809D27689"
+				type: "checkmark"
+				title: "A few notes about ore veins"
+			}]
+		}
+		{
+			title: "Diamond"
+			x: 8.0d
+			y: -5.5d
+			subtitle: "Even more carbonated stone"
+			description: [
+				"Distribution: Diamond | 60, Coal | 50, Cobblestone | 10, Coal Block | 5"
+				"Indicator: Glimmering Black Flowers, Dandelions"
+				"Found in altitude: -10 | -45"
+				"Rare ore vein (Every 80 chunks) ! No double spawning ! "
+				"Size: 65-130"
+			]
+			dependencies: [
+				"609DEE79F9C0BD92"
+				"42D7F41EDFF4B961"
+			]
+			id: "29D35006D0B79CF6"
+			tasks: [{
+				id: "75D9585A8461B200"
+				type: "questsadditions:break"
+				title: "Diamond"
+				block_type: 0
+				block: "minecraft:deepslate_diamond_ore"
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Redstone-Cinnabar"
+			x: 12.0d
+			y: -5.5d
+			subtitle: "Red richeties"
+			description: [
+				"Distribution: Redstone | 45, Cinnabar | 20, Cobblestone | 10"
+				"Indicator: Fiery Hedges, Poppies"
+				"Found in altitude: -40 | 30"
+				"Decently rare ore vein (Every 36 chunks)"
+				"Size: 115-165"
+			]
+			dependencies: [
+				"609DEE79F9C0BD92"
+				"42D7F41EDFF4B961"
+			]
+			id: "3F5FC90C48EFC528"
+			tasks: [
+				{
+					id: "4DC338EB43E84026"
+					type: "questsadditions:break"
+					title: "Redstone"
+					block_type: 0
+					block: "minecraft:redstone_ore"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "76D17FB4AF376E80"
+					type: "questsadditions:break"
+					title: "Cinnabar"
+					icon: "thermal:cinnabar_ore"
+					block_type: 0
+					block: "thermal:cinnabar_ore"
+					value: 1L
+					checkItem: false
+				}
+			]
+		}
+		{
+			title: "Gold-Iron"
+			x: 12.0d
+			y: -2.5d
+			subtitle: "Ooooh! Shiny!"
+			description: [
+				"Distribution: Gold | 55, Iron | 25, Sand | 15, Cobblestone | 10"
+				"Indicator: Yellow glimmering mushrooms, dandelions"
+				"Found in altitude: -20 | 20"
+				"Decently rare ore vein (Every 36 chunks)"
+				"Size: 75-115"
+			]
+			dependencies: [
+				"609DEE79F9C0BD92"
+				"42D7F41EDFF4B961"
+			]
+			id: "657F0644E722C7FA"
+			tasks: [
+				{
+					id: "1E826C409C0E52B5"
+					type: "questsadditions:break"
+					title: "Gold"
+					block_type: 0
+					block: "minecraft:gold_ore"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "421D28256458CB51"
+					type: "questsadditions:break"
+					title: "Iron"
+					block_type: 0
+					block: "minecraft:iron_ore"
+					value: 1L
+					checkItem: false
+				}
+			]
+		}
+		{
+			title: "Copper-Uranium"
+			x: 13.5d
+			y: -4.0d
+			subtitle: "That combination doesn't even make sense"
+			description: [
+				"Distribution: Copper | 70, Uranium | 5, Cobblestone | 10"
+				"Indicator: Warm blossom leaf hedges, orange tulips"
+				"Found in altitude: -10 | 65"
+				"Common ore vein (Every 24 chunks)"
+				"Size: 115-165"
+			]
+			dependencies: [
+				"609DEE79F9C0BD92"
+				"42D7F41EDFF4B961"
+			]
+			id: "4DED7BB9D85CDC88"
+			tasks: [
+				{
+					id: "46892FD5EC6547AE"
+					type: "questsadditions:break"
+					title: "Copper"
+					block_type: 0
+					block: "minecraft:copper_ore"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "04813EC723937053"
+					type: "questsadditions:break"
+					title: "Uranium"
+					block_type: 0
+					block: "mekanism:uranium_ore"
+					value: 1L
+					checkItem: false
+				}
+			]
+		}
+		{
+			title: "Lapis-Apatite"
+			x: 13.5d
+			y: -5.5d
+			subtitle: "Blueeee"
+			description: [
+				"Distribution: Lapis | 35, Apatite | 25, Cobblestone | 10"
+				"Indicator: (Flowering) Azalea Hedges"
+				"Found in altitude: 10 | 70"
+				"Size: 145-185"
+			]
+			dependencies: [
+				"609DEE79F9C0BD92"
+				"42D7F41EDFF4B961"
+			]
+			id: "4B7E9B7F73DF8CDC"
+			tasks: [
+				{
+					id: "67992C89990464BD"
+					type: "questsadditions:break"
+					title: "Lapis"
+					block_type: 0
+					block: "minecraft:lapis_ore"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "17CB39DBE603DB15"
+					type: "questsadditions:break"
+					title: "Apatite"
+					block_type: 0
+					block: "thermal:apatite_ore"
+					value: 1L
+					checkItem: false
+				}
+			]
+		}
+		{
+			title: "Emerald-Ender"
+			x: 13.5d
+			y: -2.5d
+			subtitle: "The two very rarely useful ores"
+			description: [
+				"Distribution: Emerald | 55, Ender Ore | 35, Cobblestone | 10"
+				"Indicator: Poppies"
+				"Found in altitude: -25 | -55"
+				"Rare ore vein (Every 80 chunks) !No double spawning!"
+				"Size: 65-115"
+			]
+			dependencies: [
+				"609DEE79F9C0BD92"
+				"42D7F41EDFF4B961"
+			]
+			id: "5B99C80196A11117"
+			tasks: [
+				{
+					id: "412CF8F55D245616"
+					type: "questsadditions:break"
+					title: "Emerald"
+					block_type: 0
+					block: "minecraft:deepslate_emerald_ore"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "7B07480F0E2A3B79"
+					type: "questsadditions:break"
+					title: "Ender Ore"
+					block_type: 0
+					block: "kubejs:deepslate_ender_ore"
+					value: 1L
+					checkItem: false
+				}
+			]
+		}
+		{
+			title: "Zinc-Nickel"
+			x: 15.0d
+			y: -4.0d
+			subtitle: "To the many alloys we shall make..."
+			description: [
+				"Distribution: Zinc | 35, Nickel | 25, Silver | 15, Cobblestone | 10"
+				"Indicator: Yellow Glimmering Mushrooms, Dandelions"
+				"Found in altitude: -15 | 35"
+				"Decently rare ore vein (Every 36 chunks)"
+				"Size: 145-165"
+			]
+			dependencies: [
+				"609DEE79F9C0BD92"
+				"42D7F41EDFF4B961"
+			]
+			id: "75835EA2F8F20756"
+			tasks: [
+				{
+					id: "63F5B4D08C8E9024"
+					type: "questsadditions:break"
+					title: "Zinc"
+					block_type: 0
+					block: "create:zinc_ore"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "77CA9B03E9DDF185"
+					type: "questsadditions:break"
+					title: "Nickel"
+					block_type: 0
+					block: "thermal:nickel_ore"
+					value: 1L
+					checkItem: false
+				}
+			]
+		}
+		{
+			title: "Lead"
+			x: 8.0d
+			y: -2.5d
+			subtitle: "Poison blocking poisonous metal"
+			description: [
+				"Distribution: Lead | 65, Zinc | 10, Cobblestone | 10"
+				"Indicator: Glimmering Black Flowers, Dandelions"
+				"Found in altitude: -10 | 50"
+				"Decently rare ore vein (Every 36 chunks)"
+				"Size: 95-135"
+			]
+			dependencies: [
+				"609DEE79F9C0BD92"
+				"42D7F41EDFF4B961"
+			]
+			id: "071C439D25F76AF6"
+			tasks: [{
+				id: "78C094C55DA5500F"
+				type: "questsadditions:break"
+				title: "Lead"
+				block_type: 0
+				block: "mekanism:lead_ore"
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Sulfur-Niter"
+			x: 15.0d
+			y: -5.5d
+			subtitle: "Explody oresss"
+			description: [
+				"Distribution: Sulfur | 60, Niter | 50, Cobblestone | 10"
+				"Indicator: Glimmering Pink Flowers, Sweet Blossom Leaf Hedges"
+				"Found in altitude: 20 | 80"
+				"Common ore vein (Every 24 chunks)"
+				"Size: 115-165"
+			]
+			dependencies: [
+				"609DEE79F9C0BD92"
+				"42D7F41EDFF4B961"
+			]
+			id: "5D77C76EEBB26787"
+			tasks: [
+				{
+					id: "745B86433F32A37E"
+					type: "questsadditions:break"
+					title: "Sulfur"
+					block_type: 0
+					block: "thermal:sulfur_ore"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "15C6DFB8CC3CAF03"
+					type: "questsadditions:break"
+					title: "Niter"
+					block_type: 0
+					block: "thermal:niter_ore"
+					value: 1L
+					checkItem: false
+				}
+			]
+		}
+		{
+			title: "Osmium-Silver"
+			x: 15.0d
+			y: -2.5d
+			subtitle: "Very similarly colored, very differently functioning"
+			description: [
+				"Distribution: Osmium | 45, Silver | 35, Cobblestone | 10"
+				"Indicator: Warm blossom leaf hedges, orange tulips"
+				"Found in altitude: -25 | 30"
+				"Decently rare ore vein (Every 36 chunks)"
+				"Size: 125-155"
+			]
+			dependencies: [
+				"609DEE79F9C0BD92"
+				"42D7F41EDFF4B961"
+			]
+			id: "3882F6A0BC4016CF"
+			tasks: [
+				{
+					id: "5A5BC73B6D6CBB78"
+					type: "questsadditions:break"
+					title: "Osmium"
+					block_type: 0
+					block: "mekanism:osmium_ore"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "6197B1C716398BD9"
+					type: "questsadditions:break"
+					title: "Silver"
+					block_type: 0
+					block: "thermal:silver_ore"
+					value: 1L
+					checkItem: false
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -4.0d
+			subtitle: "Makes stuff, i guess??"
+			description: [
+				"Distribution: Fluorite | 90, Cobblestone | 10, Dimensional Shard Ore(If Stone) | 1, Ancient Debris(If Deepslate) | 1"
+				"Indicator: Glimmering Pink Flowers, Sweet Blossom Leaf Hedges"
+				"Found in altitude: -30 | 60"
+				"Common ore vein (Every 24 chunks)"
+				"Size: 65-115"
+			]
+			dependencies: [
+				"609DEE79F9C0BD92"
+				"42D7F41EDFF4B961"
+			]
+			id: "1A27B2C6EB2323FB"
+			tasks: [{
+				id: "36A5DFABD874D6D2"
+				type: "questsadditions:break"
+				title: "Fluorite"
+				block_type: 0
+				block: "mekanism:fluorite_ore"
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Quartz"
+			x: 16.5d
+			y: -4.0d
+			subtitle: "Ooooh! Reflective!"
+			description: [
+				"Distribution: Certus Quartz | 45, Quartz | 35, Cobblestone | 10"
+				"Indicator: Glimmering White Flower"
+				"Found in altitude: 15 | 60"
+				"Decently rare ore vein (Every 36 chunks)"
+				"Size: 115-165"
+			]
+			dependencies: [
+				"609DEE79F9C0BD92"
+				"42D7F41EDFF4B961"
+			]
+			id: "5B8542BB35572E22"
+			tasks: [
+				{
+					id: "7263A25E1D1882BD"
+					type: "questsadditions:break"
+					title: "Certus Quartz"
+					block_type: 0
+					block: "ae2:quartz_ore"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "76B6353D53CB1F5C"
+					type: "questsadditions:break"
+					title: "Quartz"
+					block_type: 0
+					block: "overworld_quartz:overworld_quartz_ore"
+					value: 1L
+					checkItem: false
+				}
+			]
+		}
+		{
+			title: "Yellorite-Uranium"
+			x: 16.5d
+			y: -5.5d
+			subtitle: "Death Ore"
+			description: [
+				"Distribution: Yellorite | 25, Uranium | 15, Cobblestone | 10, Emerald | 2"
+				"Indicator: Warm blossom leaf hedges, orange tulips"
+				"Found in altitude: 5 | 25"
+				"Pretty rare ore vein (Every 48 chunks)"
+				"Size: 95-125"
+			]
+			dependencies: [
+				"609DEE79F9C0BD92"
+				"42D7F41EDFF4B961"
+			]
+			id: "50EA9E4C2AA07EBC"
+			tasks: [
+				{
+					id: "26884C5351812DE7"
+					type: "questsadditions:break"
+					title: "Yellorite"
+					block_type: 0
+					block: "bigreactors:yellorite_ore"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "05D4BD0060F01567"
+					type: "questsadditions:break"
+					title: "Uranium"
+					block_type: 0
+					block: "mekanism:uranium_ore"
+					value: 1L
+					checkItem: false
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			subtitle: "Hell and heaven..."
+			description: [
+				"The generation of extra-dimensional ores is a little different than overworld ores in Tebeudia"
+				"First of, no ore vein will do double spawning in non-overworld dimensions, this means the data given is the exact generation rate"
+				"Secondly, not all ore veins have indicators, unlike overworld veins"
+				"So... some tips: I recommend using a finder or some other ore detection device to roam these dimensions when searching for ore, as that will make the process much more painless"
+			]
+			dependencies: ["42D7F41EDFF4B961"]
+			id: "602CB69FDE1985CC"
+			tasks: [{
+				id: "6BDE21E75AAD668C"
+				type: "checkmark"
+				title: "Extra-Dimensional Ores"
+			}]
+		}
+		{
+			title: "Quartz-Gold"
+			x: 12.0d
+			y: 0.0d
+			subtitle: "The classics"
+			description: [
+				"Distribution: Quartz | 70, Gold | 18"
+				"Indicator: None"
+				"Found in altitude: 15 | 110"
+				"Extra-dimensional ore vein (Every 32 chunks)"
+				"Size: 135-185"
+				"Note from self: While I can't see it, I feel as though there is something more than just gold and quartz in these veins, almost as if an other-wordly... thing -even for this hellish dimension- exists here"
+			]
+			dependencies: ["602CB69FDE1985CC"]
+			id: "70F6165D607757CD"
+			tasks: [
+				{
+					id: "19BC87946848AC12"
+					type: "questsadditions:break"
+					title: "Nether Quartz"
+					block_type: 0
+					block: "minecraft:nether_quartz_ore"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "5731C3EDB7449ECC"
+					type: "questsadditions:break"
+					title: "Nether Gold"
+					block_type: 0
+					block: "minecraft:nether_gold_ore"
+					value: 1L
+					checkItem: false
+				}
+			]
+		}
+		{
+			title: "Cobalt"
+			x: 8.0d
+			y: 0.0d
+			subtitle: "Very, very fast tool making... and some other things I guess"
+			description: [
+				"Distribution: Cobalt | 35, Nether Gold | 10, Ancient Debris | 2"
+				"Found in altitude: 15 | 50"
+				"Rare exra-dimensional ore vein (Every 48 chunks)"
+				"Size: 85-145"
+			]
+			dependencies: ["602CB69FDE1985CC"]
+			id: "038C395DB0387A19"
+			tasks: [{
+				id: "794E0D7BDF14FCF2"
+				type: "questsadditions:break"
+				title: "Cobalt"
+				block_type: 0
+				block: "tconstruct:cobalt_ore"
+				value: 1L
+				checkItem: false
+			}]
+		}
+	]
+}

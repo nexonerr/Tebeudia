@@ -1,0 +1,17 @@
+#147 terralith:ashen_savanna
+#6F6 minecraft:badlands
+#694 terralith:cave/deep_caves
+#4DB terralith:cave/fungal_caves
+#1A6 terralith:cave/granite_caves
+#008 minecraft:desert
+#614 minecraft:eroded_badlands
+#38F terralith:granite_cliffs
+#4A3 terralith:painted_mountains
+#5FF minecraft:river
+#67B minecraft:savanna
+#706 minecraft:savanna_plateau
+#71E terralith:savanna_slopes
+#421 minecraft:stony_peaks
+#28B terralith:volcanic_peaks
+#2B7 minecraft:warm_ocean
+#531 terralith:warm_river

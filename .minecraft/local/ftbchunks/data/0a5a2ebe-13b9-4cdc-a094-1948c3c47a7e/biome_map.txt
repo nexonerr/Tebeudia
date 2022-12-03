@@ -1,0 +1,11 @@
+#556 minecraft:beach
+#184 terralith:brushland
+#694 terralith:cave/deep_caves
+#1A6 terralith:cave/granite_caves
+#00C terralith:cave/infested_caves
+#78A terralith:gravel_beach
+#79A minecraft:lukewarm_ocean
+#5FF minecraft:river
+#67B minecraft:savanna
+#706 minecraft:savanna_plateau
+#51A minecraft:stony_shore

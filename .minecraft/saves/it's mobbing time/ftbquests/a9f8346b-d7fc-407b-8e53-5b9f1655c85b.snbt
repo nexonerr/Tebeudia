@@ -1,0 +1,15 @@
+{
+	version: 1
+	uuid: "a9f8346bd7fc407b8e535b9f1655c85b"
+	name: "Nexoner"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	chapter_pinned: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

@@ -1,0 +1,13 @@
+#5C1 terralith:alpine_highlands
+#556 minecraft:beach
+#47F minecraft:birch_forest
+#79D terralith:cave/andesite_caves
+#694 terralith:cave/deep_caves
+#3D6 minecraft:cold_ocean
+#010 minecraft:forest
+#78A terralith:gravel_beach
+#0E5 terralith:highlands
+#4F1 minecraft:ocean
+#1DF minecraft:old_growth_birch_forest
+#5FF minecraft:river
+#1D0 terralith:yellowstone
